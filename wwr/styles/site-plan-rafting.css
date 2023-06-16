@@ -3,11 +3,11 @@
 
 /* CSS Variables */
 :root {
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a43312;
-  --accent2-color: #381d2a;
-  --background-color: #f8f8f8; /* Added a light gray background color */
+  --primary-color: #052f5f;
+  --secondary-color: #005377;
+  --accent1-color: #06a77d;
+  --accent2-color: #d5c67a;
+  --background-color: #f8f8f8; 
 
   --heading-font: 'Montserrat', sans-serif;
   --paragraph-font: 'Open Sans', sans-serif;
@@ -19,7 +19,7 @@
 }
 
 .logo {
-  max-width: 150px; /* Adjust the size as per your preference */
+  max-width: 150px; 
   height: auto;
 }
 
@@ -73,4 +73,3 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
