@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+}
+
+.herodiv {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+.stats {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
