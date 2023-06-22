@@ -50,8 +50,9 @@ main {
 }
 
 .profile p {
-  margin: 0; /* Remove the margin */
-  padding: 10px; /* Add padding to the paragraph */
+  margin: 0 0 1em 1em; /* Remove the margin */
+  padding: 2px; /* Add padding to the paragraph */
+  box-shadow: 0 0 30px gray;
   float: right; /* Float the paragraph to the right */
   width: 60%; /* Adjust the width as needed */
 }
