@@ -54,8 +54,6 @@ main {
   padding: 2px; /* Add padding to the paragraph */
   box-shadow: 0 0 30px gray;
   overflow: hidden; /* Add this to create a new block formatting context */
-  height: 250px; /* Adjust the height as needed */
-  width: 200px; /* Adjust the width as needed */
 }
 
 aside {
