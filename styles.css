@@ -39,11 +39,6 @@ img {
   float: right;
 }
 
-p {
-  padding: 10px;
-  clear: right;
-}
-
 main {
   max-width: 840px;
 }
@@ -62,6 +57,10 @@ aside h2 {
   position: absolute;
   top: 47px;
   left: 150px;
+}
+
+aside p {
+  float: right;
 }
 
 footer {
