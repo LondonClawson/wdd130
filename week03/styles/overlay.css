@@ -27,6 +27,7 @@
   padding: 0.65rem;
   box-shadow: 0 0 30px #111;
   opacity: 0.8;
+  z-index: 1;
 }
 
 h3 {
@@ -36,9 +37,7 @@ h3 {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  margin: 1rem;
+  margin-top: 20px; 
   border-top: 1px solid #000;
   padding: 0.5rem;
   color: navy;
