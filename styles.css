@@ -52,6 +52,8 @@ main {
 .profile p {
   margin: 0; /* Remove the margin */
   padding: 10px; /* Add padding to the paragraph */
+  float: right; /* Float the paragraph to the right */
+  width: 60%; /* Adjust the width as needed */
 }
 
 aside {
@@ -71,7 +73,7 @@ aside h2 {
 }
 
 aside img {
-  max-width: 50%;
+  max-width: 25%;
   height: auto;
 }
 
