@@ -39,7 +39,7 @@ main {
   overflow: hidden; /* Add this to create a new block formatting context */
 }
 
-.profile img {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
