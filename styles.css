@@ -30,6 +30,11 @@ h1 {
   color: steelblue;
 }
 
+main {
+  max-width: 840px;
+  overflow: hidden; /* Add this to create a new block formatting context */
+}
+
 .profile {
   overflow: hidden; /* Add this to create a new block formatting context */
 }
@@ -41,14 +46,12 @@ h1 {
   padding: 2px;
   box-shadow: 0 0 30px gray;
   float: right;
+  margin: 0 0 1em 1em; /* Adjust the margin as needed */
 }
 
 .profile p {
-  margin-right: 170px; /* Adjust this value as needed */
-}
-
-main {
-  max-width: 840px;
+  margin: 0; /* Remove the margin */
+  padding: 10px; /* Add padding to the paragraph */
 }
 
 aside {
