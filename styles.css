@@ -1,3 +1,22 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: steelblue;
+}
+
+/* Navigation Styles */
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -9,11 +28,13 @@ nav a {
   padding: 20px;
 }
 
-h1 {
-  color: steelblue;
+/* Main Content Styles */
+main {
+  max-width: 840px;
 }
 
-img {
+main img {
+  float: right;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -21,14 +42,12 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
-p {
+main p {
+  clear: both;
   padding: 10px;
 }
 
-main {
-  max-width: 840px;
-}
-
+/* Aside Styles */
 aside {
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -36,6 +55,7 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -43,17 +63,24 @@ aside img {
   height: auto;
 }
 
-main img {
-  width: 150px;
-  height: auto;
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
-p {
-  padding: 0;
-}
-
+/* Footer Styles */
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
