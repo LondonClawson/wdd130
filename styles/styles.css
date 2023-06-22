@@ -47,6 +47,8 @@ main img {
   box-shadow: 0 0 30px gray;
   float: right;
   margin: 0 1em 1em 0; /* Adjust the margin as needed */
+  background-color: #ddd; /* Add background color */
+  color: #000; /* Add text color */
 }
 
 .profile p {
@@ -54,6 +56,8 @@ main img {
   padding: 2px; /* Add padding to the paragraph */
   box-shadow: 0 0 30px gray;
   overflow: hidden; /* Add this to create a new block formatting context */
+  background-color: #ddd; /* Add background color */
+  color: #000; /* Add text color */
 }
 
 aside {
