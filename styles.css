@@ -75,3 +75,8 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+footer img {
+  width: 100px; /* Adjust the width as desired */
+  height: auto;
+}
