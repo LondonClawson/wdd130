@@ -46,15 +46,14 @@ main {
   padding: 2px;
   box-shadow: 0 0 30px gray;
   float: right;
-  margin: 0 0 1em 1em; /* Adjust the margin as needed */
+  margin: 0 1em 1em 0; /* Adjust the margin as needed */
 }
 
 .profile p {
-  margin: 0 0 1em 1em; /* Remove the margin */
+  margin: 0; /* Remove the margin */
   padding: 2px; /* Add padding to the paragraph */
   box-shadow: 0 0 30px gray;
-  float: right; /* Float the paragraph to the right */
-  width: 60%; /* Adjust the width as needed */
+  overflow: hidden; /* Add this to create a new block formatting context */
 }
 
 aside {
@@ -78,10 +77,8 @@ aside img {
   height: auto;
 }
 
-
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
 }
-
