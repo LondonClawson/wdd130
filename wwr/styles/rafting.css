@@ -6,12 +6,6 @@
   --text-color: #333333;
 }
 
-/* .logo {
-  width: 25%;
-  max-width: 150px;
-  margin-left: 20px;
-} */
-
 body {
   font-family: 'Your Selected Font', sans-serif;
   margin: 0;
@@ -109,17 +103,18 @@ article {
 }
 
 .client-img {
-  margin: 0 0 0 10px; /* Adjust the margin as needed */
+  margin: auto 0; /* Adjust the margin as needed */
   max-width: 200px;
   height: auto;
-  align-self: flex-start;
 }
 
 article p {
-  flex: 1; /* Add this line */
-  margin-right: 20px; /* Add this line */
+  margin-right: 20px; /* Add this line to create spacing between the paragraphs */
 }
 
+article .text-container {
+  flex: 1; /* Add this line to allow the paragraphs to take up remaining space */
+}
 
 section {
   width: 100%;
