@@ -94,18 +94,22 @@ article {
   padding: 20px;
   background-color: #F7F7F7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 80%;
-  max-width: 600px;
+  width: 90%; /* Adjust the width as desired */
+  max-width: 800px; /* Adjust the maximum width as desired */
   margin: 0 auto;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .client-img {
-  float: right;
-  margin: 0 0 10px 10px;
+  margin: 0 auto 0 10px; /* Adjust the margin as needed */
   max-width: 200px;
   height: auto;
+  align-self: flex-start;
 }
+
+
 
 
 section {
