@@ -6,9 +6,27 @@
   --text-color: #333333;
 }
 
+header {
+  background-color: var(--primary-color); /* Set the desired background color */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   width: 25%; /* Adjust the width as needed */
   max-width: 150px; /* Set a maximum width if desired */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #FFFFFF; /* Set the desired color for the links */
 }
 
 body {
