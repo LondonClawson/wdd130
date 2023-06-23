@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Your+Selected+Font');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 :root {
   --primary-color: #00203FFF;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Your Selected Font', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   color: var(--text-color);
