@@ -106,13 +106,37 @@ section {
   gap: 20px;
 }
 
-section img {
+section {
+  /* Existing styles for the section */
+}
+
+.image-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-group img {
   display: block;
-  width: 100%;
+  width: 100%; /* Adjust the width as needed */
   max-width: 400px; /* Set a maximum width if desired */
   height: auto;
   margin-bottom: 10px; /* Add margin between the images */
 }
+
+.image-group:nth-child(2) img {
+  max-width: 800px; /* Adjust the maximum width for panorama images */
+  max-height: 400px; /* Adjust the maximum height for panorama images */
+}
+
+/* section img {
+  display: block;
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
+  margin-bottom: 10px; 
+} */
 
 footer {
   background-color: var(--primary-color);
