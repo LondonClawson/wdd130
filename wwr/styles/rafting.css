@@ -31,27 +31,28 @@ a {
 
 header {
   display: flex;
-  justify-content: space-between; /* Add this line */
   align-items: center;
   background-color: #F4F4F4;
-  padding: 20px 40px; /* Update the padding as desired */
+  padding: 20px 40px;
 }
 
 .logo {
   width: 25%;
   max-width: 150px;
-  margin-right: 20px; /* Change margin-left to margin-right */
+  margin-right: 20px;
 }
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1; /* Add this line */
+  flex-grow: 1;
+  margin-left: auto; /* Add this line */
+  margin-right: auto; /* Add this line */
 }
 
 header nav a {
-  margin-left: 20px; /* Adjust the margin-left as desired */
+  margin-left: 20px;
 }
 
 .hero {
