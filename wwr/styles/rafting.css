@@ -106,15 +106,20 @@ article {
   margin: 0 auto;
   overflow: hidden;
   display: flex;
-  align-items: center;
 }
 
 .client-img {
-  margin: 0 auto 0 10px; /* Adjust the margin as needed */
+  margin: 0 0 0 10px; /* Adjust the margin as needed */
   max-width: 200px;
   height: auto;
   align-self: flex-start;
 }
+
+article p {
+  flex: 1; /* Add this line */
+  margin-right: 20px; /* Add this line */
+}
+
 
 section {
   width: 100%;
