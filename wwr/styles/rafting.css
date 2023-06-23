@@ -83,11 +83,14 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 section img {
   display: block;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
   max-width: 400px; /* Set a maximum width if desired */
   height: auto;
   margin-bottom: 10px; /* Add margin between the images */
