@@ -41,6 +41,7 @@ a {
   display: block;
   width: 100%;
   height: auto;
+  max-width: 800px; /* Adjust the maximum width as needed */
 }
 
 .hero h1 {
@@ -68,6 +69,8 @@ article {
 .client-img {
   float: right;
   margin: 0 0 10px 10px;
+  max-width: 200px; /* Adjust the maximum width as needed */
+  height: auto;
 }
 
 section {
@@ -90,4 +93,3 @@ footer {
   height: 30px;
   margin: 0 5px;
 }
-
