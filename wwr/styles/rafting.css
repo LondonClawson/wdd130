@@ -167,6 +167,7 @@ footer p {
 
 .sociallinks a {
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .sociallinks img {
