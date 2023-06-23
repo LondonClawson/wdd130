@@ -6,11 +6,11 @@
   --text-color: #333333;
 }
 
-.logo {
+/* .logo {
   width: 25%;
   max-width: 150px;
   margin-left: 20px;
-}
+} */
 
 body {
   font-family: 'Your Selected Font', sans-serif;
@@ -36,21 +36,28 @@ a {
 }
 
 header {
-  background-color: #F4F4F4;
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Add this line */
   align-items: center;
-  padding: 20px;
+  background-color: #F4F4F4;
+  padding: 20px 40px; /* Update the padding as desired */
+}
+
+.logo {
+  width: 25%;
+  max-width: 150px;
+  margin-right: 20px; /* Change margin-left to margin-right */
 }
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1; /* Add this line */
 }
 
 header nav a {
-  margin-left: 10px;
+  margin-left: 20px; /* Adjust the margin-left as desired */
 }
 
 .hero {
@@ -108,9 +115,6 @@ article {
   height: auto;
   align-self: flex-start;
 }
-
-
-
 
 section {
   width: 100%;
