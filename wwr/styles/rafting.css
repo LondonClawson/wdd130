@@ -154,11 +154,27 @@ footer {
   color: #FFFFFF;
   text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  flex: 1;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sociallinks a {
+  margin-left: 10px;
 }
 
 .sociallinks img {
-  display: inline-block;
   width: 30px;
   height: 30px;
-  margin: 0 5px;
 }
+
