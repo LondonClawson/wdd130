@@ -6,27 +6,9 @@
   --text-color: #333333;
 }
 
-header {
-  background-color: var(--primary-color); /* Set the desired background color */
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .logo {
   width: 25%; /* Adjust the width as needed */
   max-width: 150px; /* Set a maximum width if desired */
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav a {
-  margin-right: 10px;
-  color: #FFFFFF; /* Set the desired color for the links */
 }
 
 body {
@@ -50,6 +32,22 @@ a {
 
 .sociallinks a {
   text-decoration: none;
+}
+
+header {
+  background-color: #F4F4F4; /* Adjust the background color as desired */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  margin-left: 10px;
 }
 
 .hero {
@@ -98,45 +96,18 @@ article {
 
 section {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px; /* Adjust the maximum width as needed */
   margin: 0 auto;
   padding: 40px 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-section {
-  /* Existing styles for the section */
-}
-
-.image-group {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+section p {
   margin-bottom: 20px;
+  text-align: center;
 }
-
-.image-group img {
-  display: block;
-  width: 100%; /* Adjust the width as needed */
-  max-width: 400px; /* Set a maximum width if desired */
-  height: auto;
-  margin-bottom: 10px; /* Add margin between the images */
-}
-
-.image-group:nth-child(2) img {
-  max-width: 800px; /* Adjust the maximum width for panorama images */
-  max-height: 400px; /* Adjust the maximum height for panorama images */
-}
-
-/* section img {
-  display: block;
-  width: 100%;
-  max-width: 400px; 
-  height: auto;
-  margin-bottom: 10px; 
-} */
 
 footer {
   background-color: var(--primary-color);
