@@ -96,25 +96,25 @@ article {
   padding: 20px;
   background-color: #F7F7F7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 90%; /* Adjust the width as desired */
-  max-width: 800px; /* Adjust the maximum width as desired */
+  width: 90%; 
+  max-width: 800px; 
   margin: 0 auto;
   overflow: hidden;
   display: flex;
 }
 
 .client-img {
-  margin: auto 0; /* Adjust the margin as needed */
+  margin: auto 0; 
   max-width: 200px;
   height: auto;
 }
 
 article p {
-  margin-right: 20px; /* Add this line to create spacing between the paragraphs */
+  margin-right: 20px; 
 }
 
 article .text-container {
-  flex: 1; /* Add this line to allow the paragraphs to take up remaining space */
+  flex: 1; 
 }
 
 section {
