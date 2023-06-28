@@ -96,25 +96,25 @@ article {
   padding: 20px;
   background-color: #F7F7F7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 90%; 
-  max-width: 800px; 
+  width: 90%;
+  max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
   display: flex;
 }
 
 .client-img {
-  margin: auto 0; 
+  margin: auto 0;
   max-width: 200px;
   height: auto;
 }
 
 article p {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 article .text-container {
-  flex: 1; 
+  flex: 1;
 }
 
 section {
@@ -174,4 +174,3 @@ footer p {
   width: 30px;
   height: 30px;
 }
-
