@@ -37,8 +37,10 @@ h1 {
   border-bottom: 1px solid #000;
 }
 
-main {
-  margin: 1rem;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 .profile {
@@ -46,12 +48,11 @@ main {
 }
 
 main img {
-  width: 150px;
+  width: 200px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  float: right;
   margin: 0 1em 1em 0;
   background-color: #ddd;
   color: #000;
@@ -67,27 +68,19 @@ main img {
 }
 
 aside {
-  width: 20rem;
-  margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1em;
   background-color: #eee;
   color: #333;
   text-align: center;
-  position: relative;
 }
 
 aside img {
   width: 100%;
   height: auto;
-  z-index: -1;
 }
 
 aside h2 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 }
@@ -103,20 +96,4 @@ footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
-}
-
-.grid {
-  display: grid;
-  align-items: center;
-}
-
-main {
-  grid-column: 2/3;
-  margin: 1rem;
-}
-
-aside {
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
 }
