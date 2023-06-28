@@ -34,8 +34,8 @@ a {
 }
 
 header {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #F4F4F4;
   padding: 20px 40px;
@@ -47,7 +47,7 @@ header {
 }
 
 header h1 {
-  grid-column: 2;
+  margin-right: auto;
 }
 
 header nav {
