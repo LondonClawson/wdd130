@@ -36,7 +36,13 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between logo image and text */
 }
 
 .logo img {
@@ -45,7 +51,8 @@ a {
 
 .nav-container {
   display: flex;
-  gap: 20px; /* Adjust the gap between navigation elements */
+  justify-content: space-between;
+  width: 400px; /* Adjust the width as needed */
 }
 
 .nav-container a {
