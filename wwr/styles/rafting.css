@@ -55,13 +55,12 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto; /* Add this line */
+  margin-right: auto; /* Add this line */
 }
 
 header nav a {
   margin-left: 20px;
-  color: var(--text-color);
 }
 
 .hero {
