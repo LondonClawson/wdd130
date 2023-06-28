@@ -35,7 +35,7 @@ a {
 
 header {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: repeat(3, 1fr); /* Modify this line */
   align-items: center;
   background-color: #F4F4F4;
   padding: 20px 40px;
