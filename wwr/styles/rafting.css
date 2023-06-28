@@ -43,7 +43,7 @@ header {
 
 .logo {
   max-width: 150px;
-  margin-right: 20px;
+  margin-left: auto;
 }
 
 header h1 {
@@ -54,6 +54,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 
 header nav a {
