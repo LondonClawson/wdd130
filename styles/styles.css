@@ -97,3 +97,17 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+main {
+  grid-column: 2/3;
+}
+
+aside {
+  grid-column: 1/2;
+}
