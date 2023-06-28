@@ -17,26 +17,32 @@
 /* Element Selectors */
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav a {
-  color: white;
   display: block;
-  padding: 20px;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 h1 {
   color: steelblue;
+  border-bottom: 1px solid #000;
 }
 
 main {
-  max-width: 840px;
-  overflow: hidden; /* Add this to create a new block formatting context */
+  margin: 1rem;
 }
 
 .profile {
-  overflow: hidden; /* Add this to create a new block formatting context */
+  overflow: hidden;
 }
 
 main img {
@@ -46,21 +52,22 @@ main img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
   float: right;
-  margin: 0 1em 1em 0; /* Adjust the margin as needed */
-  background-color: #ddd; /* Add background color */
-  color: #000; /* Add text color */
+  margin: 0 1em 1em 0;
+  background-color: #ddd;
+  color: #000;
 }
 
 .profile p {
-  margin: 0; /* Remove the margin */
-  padding: 2px; /* Add padding to the paragraph */
+  margin: 0;
+  padding: 2px;
   box-shadow: 0 0 30px gray;
-  overflow: hidden; /* Add this to create a new block formatting context */
-  background-color: #ddd; /* Add background color */
-  color: #000; /* Add text color */
+  overflow: hidden;
+  background-color: #ddd;
+  color: #000;
 }
 
 aside {
+  width: 20rem;
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1em;
@@ -73,20 +80,43 @@ aside {
 aside img {
   max-width: 25%;
   height: auto;
-  z-index: -1; /* Add a negative z-index to move the image behind the text */
+  z-index: -1;
 }
 
 aside h2 {
   position: absolute;
   top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the h2 element vertically and horizontally */
-  background-color: rgba(255, 255, 255, 0.8); /* Add a background color with some transparency */
-  padding: 10px; /* Add some padding for readability */
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+header,
+.grid,
+footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+aside {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
