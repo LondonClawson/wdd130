@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 :root {
-  --primary-color: #00203FFF;
-  --secondary-color: #FFB900FF;
+  --primary-color: #052f5f;
+  --secondary-color: #005377;
+  --accent1-color: #06a77d;
+  --accent2-color: #d5c67a;
   --text-color: #333333;
 }
 
@@ -23,23 +25,29 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .sociallinks a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   background-color: #F4F4F4;
   padding: 20px 40px;
 }
 
 .logo {
-  width: 25%;
   max-width: 150px;
   margin-right: 20px;
+}
+
+header h1 {
+  grid-column: 2;
 }
 
 header nav {
@@ -47,12 +55,13 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  margin-left: auto; /* Add this line */
-  margin-right: auto; /* Add this line */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header nav a {
   margin-left: 20px;
+  color: var(--text-color);
 }
 
 .hero {
@@ -173,8 +182,17 @@ footer {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F4F4F4;
+}
+
 footer p {
   flex: 1;
+  color: #FFFFFF;
 }
 
 .sociallinks {
@@ -186,6 +204,7 @@ footer p {
 .sociallinks a {
   margin-left: 10px;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .sociallinks img {
