@@ -35,7 +35,7 @@ a {
 
 header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Modify this line */
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   background-color: #F4F4F4;
   padding: 20px 40px;
@@ -55,12 +55,10 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 header nav a {
-  margin-left: 20px;
+  margin: 0 10px; /* Adjust the margin as desired */
 }
 
 .hero {
