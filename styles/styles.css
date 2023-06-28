@@ -105,9 +105,9 @@ footer {
 }
 
 main {
-  grid-column: 2 / 3;
+  order: 2;
 }
 
 aside {
-  grid-column: 1 / 2;
+  order: 1;
 }
