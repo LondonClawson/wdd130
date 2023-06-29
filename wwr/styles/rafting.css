@@ -41,6 +41,11 @@ a {
   color: var(--primary-color);
 }
 
+a.nav-link {
+  text-decoration: none;
+  color: var(--accent1-color); /* Set the color to white or any other desired color */
+}
+
 .header-container {
   display: grid;
   grid-template-columns: auto 1fr; /* Adjust the column sizes as needed */
