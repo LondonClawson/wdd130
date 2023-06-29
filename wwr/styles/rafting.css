@@ -167,6 +167,10 @@ header nav a {
 .client-img {
   width: 200px;
   height: auto;
+  position: relative; 
+  top: 20px; 
+  right: 0; 
+  margin: 20px;
   float: right;
   margin-left: 20px;
   margin-bottom: 20px; 
