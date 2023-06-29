@@ -165,7 +165,15 @@ section {
   box-sizing: border-box; /* Add this property */
 }
 
-.image-section {
+.client-img {
+  width: 200px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* .image-section {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -182,7 +190,7 @@ section {
   flex: 0 0 200px;
   margin: 10px;
   text-align: center;
-  box-sizing: border-box; /* Add this property */
+  box-sizing: border-box; 
 }
 
 .image-group img {
@@ -191,14 +199,14 @@ section {
   height: auto;
   max-width: 200px;
   margin-bottom: 10px;
-}
+} */
 
 section p {
   margin-bottom: 20px;
   text-align: left;
 }
 
-section {
+/* section {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -209,7 +217,7 @@ section {
   background-color: #F7F7F7;
   border: 1px solid #333;
   box-sizing: border-box; /* Add this property */
-}
+} */
 
 figure img {
   width: 100%;
