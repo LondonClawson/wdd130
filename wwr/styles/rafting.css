@@ -43,12 +43,12 @@ a {
 
 a.nav-link {
   text-decoration: none;
-  color: var(--accent1-color); /* Set the color to white or any other desired color */
+  color: var(--accent1-color); 
 }
 
 .header-container {
   display: grid;
-  grid-template-columns: auto 1fr; /* Adjust the column sizes as needed */
+  grid-template-columns: auto 1fr; 
   align-items: center;
   background-color: var(--primary-color);
 }
@@ -57,32 +57,32 @@ a.nav-link {
   display: flex;
   align-items: center;
   padding: 10px;
-  gap: 10px; /* Adjust the gap between logo image and text */
+  gap: 10px; 
 }
 
 .logo img {
-  height: 70px; /* Adjust the height as needed */
+  height: 70px;
 }
 
 .nav-container {
   display: flex;
-  justify-content: center; /* Center the navigation elements */
+  justify-content: center; 
   align-items: center;
 }
 
 .nav-container a {
   text-decoration: none;
-  color: var(--accent1-color) /* Adjust the color as needed */
+  color: var(--accent1-color) 
 }
 
 header nav {
   display: flex;
-  justify-content: center; /* Center the navigation elements */
+  justify-content: center; 
   align-items: center;
 }
 
 header nav a {
-  margin: 0 10px; /* Adjust the margin as desired */
+  margin: 0 10px; 
 }
 
 .hero {
@@ -118,36 +118,6 @@ header nav a {
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-/* .article {
-  position: relative; 
-  margin-top: var(--section-spacing);
-  padding: 20px;
-  background-color: #F7F7F7;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #333;
-  box-sizing: border-box;
-}
-
-.article .text-container {
-  flex: 1;
-  overflow: hidden;
-}
-
-.client-img {
-  width: 200px;
-  height: auto;
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  margin: 20px;
-} */
 
  article {
   margin-top: var(--section-spacing);
@@ -195,7 +165,7 @@ section {
   padding: var(--section-spacing);
   background-color: #F7F7F7;
   border: 1px solid #333;
-  box-sizing: border-box; /* Add this property */
+  box-sizing: border-box; 
 }
 
 .client-img {
@@ -208,7 +178,7 @@ section {
 
 .article .text-container {
   flex: 1;
-  overflow: hidden; /* Add this line to prevent text from wrapping around the image */
+  overflow: hidden; 
 }
 
 .image-section {
@@ -243,19 +213,6 @@ section p {
   margin-bottom: 20px;
   text-align: left;
 }
-
-/* section {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: var(--section-spacing);
-  background-color: #F7F7F7;
-  border: 1px solid #333;
-  box-sizing: border-box; 
-} */
 
 figure img {
   width: 100%;
