@@ -6,6 +6,10 @@
   --accent1-color: #06a77d;
   --accent2-color: #d5c67a;
   --text-color: #333333;
+  --heading-font-size: 2rem;
+  --paragraph-font-size: 1rem;
+  --line-height: 1.5;
+  --section-spacing: 40px;
 }
 
 body {
@@ -17,10 +21,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
+  text-align: center;
+  font-size: var(--heading-font-size);
+  line-height: var(--line-height);
 }
 
 p {
-  color: var(--text-color);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--line-height);
 }
 
 a {
@@ -137,16 +145,19 @@ section {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: var(--section-spacing);
+  background-color: #F7F7F7; 
+  border: 1px solid #333;
 }
 
 .image-group {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  border: 1px solid #333;
 }
 
 .image-group img {
