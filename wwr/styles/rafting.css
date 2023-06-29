@@ -153,18 +153,31 @@ section {
   border: 1px solid #333;
 }
 
+.image-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
 .image-group {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 20px;
-  border: 1px solid #333;
+}
+
+.image-group figure {
+  flex: 0 0 200px;
+  margin: 10px;
+  text-align: center;
 }
 
 .image-group img {
   display: block;
-  width: 200px;
+  width: 100%;
   height: auto;
-  margin: 0 10px;
+  max-width: 200px;
+  margin-bottom: 10px;
 }
 
 section p {
