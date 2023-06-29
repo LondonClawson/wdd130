@@ -172,7 +172,12 @@ section {
   margin-bottom: 20px;
 }
 
-/* .image-section {
+.article .text-container {
+  flex: 1;
+  overflow: hidden; /* Add this line to prevent text from wrapping around the image */
+}
+
+.image-section {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -198,7 +203,7 @@ section {
   height: auto;
   max-width: 200px;
   margin-bottom: 10px;
-} */
+}
 
 section p {
   margin-bottom: 20px;
