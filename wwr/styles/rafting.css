@@ -126,6 +126,7 @@ article {
   display: flex;
   flex-direction: column;
   border: 1px solid #333;
+  box-sizing: border-box; /* Add this property */
 }
 
 .client-img {
@@ -133,6 +134,7 @@ article {
   height: auto;
   float: right;
   margin-left: 20px;
+  margin-bottom: 20px; /* Add a bottom margin to create space below the image */
 }
 
 article p {
@@ -144,17 +146,19 @@ article .text-container {
   flex: 1;
 }
 
-
-section {
+article {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: var(--section-spacing);
-  background-color: #F7F7F7; 
   border: 1px solid #333;
+  box-sizing: border-box; /* Add this property */
 }
 
 .image-section {
@@ -174,6 +178,7 @@ section {
   flex: 0 0 200px;
   margin: 10px;
   text-align: center;
+  box-sizing: border-box; /* Add this property */
 }
 
 .image-group img {
@@ -194,6 +199,7 @@ figure {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  box-sizing: border-box; /* Add this property */
 }
 
 figure img {
