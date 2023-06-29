@@ -115,31 +115,35 @@ header nav a {
 }
 
 article {
-  position: relative;
-  margin-top: -100px;
+  margin-top: var(--section-spacing);
   padding: 20px;
   background-color: #F7F7F7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
 }
 
 .client-img {
-  margin: auto 0;
-  max-width: 200px;
+  width: 200px;
   height: auto;
+  float: right;
+  margin-left: 20px;
 }
 
 article p {
-  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 article .text-container {
   flex: 1;
 }
+
 
 section {
   width: 100%;
