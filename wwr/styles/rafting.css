@@ -119,7 +119,8 @@ header nav a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-article {
+.article {
+  position: relative; /* Add relative positioning to the article container */
   margin-top: var(--section-spacing);
   padding: 20px;
   background-color: #F7F7F7;
@@ -131,7 +132,37 @@ article {
   display: flex;
   flex-direction: column;
   border: 1px solid #333;
-  box-sizing: border-box; /* Add this property */
+  box-sizing: border-box;
+}
+
+.article .text-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.client-img {
+  width: 200px;
+  height: auto;
+  position: absolute; /* Add absolute positioning */
+  top: 0; /* Adjust the top position as desired */
+  right: 0; /* Position the image to the right */
+  margin: 20px;
+}
+
+
+/* article {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-sizing: border-box; 
 }
 
 .client-img {
@@ -139,7 +170,7 @@ article {
   height: auto;
   float: right;
   margin-left: 20px;
-  margin-bottom: 20px; /* Add a bottom margin to create space below the image */
+  margin-bottom: 20px; 
 }
 
 article p {
@@ -149,7 +180,7 @@ article p {
 
 article .text-container {
   flex: 1;
-}
+} */
 
 section {
   width: 100%;
