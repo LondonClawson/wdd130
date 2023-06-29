@@ -147,17 +147,15 @@ article .text-container {
   flex: 1;
 }
 
-article {
-  margin-top: var(--section-spacing);
-  padding: 20px;
-  background-color: #F7F7F7;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+section {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: var(--section-spacing);
+  background-color: #F7F7F7;
   border: 1px solid #333;
   box-sizing: border-box; /* Add this property */
 }
@@ -195,11 +193,16 @@ section p {
   text-align: left;
 }
 
-figure {
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  padding: var(--section-spacing);
+  background-color: #F7F7F7;
+  border: 1px solid #333;
   box-sizing: border-box; /* Add this property */
 }
 
