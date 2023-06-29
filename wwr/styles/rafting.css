@@ -119,8 +119,8 @@ header nav a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.article {
-  position: relative; /* Add relative positioning to the article container */
+/* .article {
+  position: relative; 
   margin-top: var(--section-spacing);
   padding: 20px;
   background-color: #F7F7F7;
@@ -143,13 +143,13 @@ header nav a {
 .client-img {
   width: 200px;
   height: auto;
-  position: absolute; /* Add absolute positioning */
-  top: 0; /* Adjust the top position as desired */
-  right: 0; /* Position the image to the right */
+  position: absolute; 
+  top: 0; 
+  right: 0; 
   margin: 20px;
-}
+} */
 
-/* article {
+ article {
   margin-top: var(--section-spacing);
   padding: 20px;
   background-color: #F7F7F7;
@@ -171,7 +171,6 @@ header nav a {
   margin-left: 20px;
   margin-bottom: 20px; 
 }
-*/
 
  article p {
   margin-bottom: 20px;
