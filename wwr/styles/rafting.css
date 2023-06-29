@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--primary-color);
+  color: var(--accent1-color);
   text-align: center;
   font-size: var(--heading-font-size);
   line-height: var(--line-height);
