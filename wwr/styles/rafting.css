@@ -45,6 +45,7 @@ a {
   display: grid;
   grid-template-columns: auto 1fr; /* Adjust the column sizes as needed */
   align-items: center;
+  background-color: var(--primary-color);
 }
 
 .logo {
@@ -214,7 +215,7 @@ figcaption {
 }
 
 footer {
-  background-color: #00203FFF;
+  background-color: var(--secondary-color);
   color: #FFFFFF;
   text-align: center;
   padding: 20px;
