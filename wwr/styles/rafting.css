@@ -72,7 +72,7 @@ a.nav-link {
 
 .nav-container a {
   text-decoration: none;
-  color: #333; /* Adjust the color as needed */
+  color: var(--accent1-color) /* Adjust the color as needed */
 }
 
 header nav {
@@ -116,7 +116,6 @@ header nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
-  color: var(--secondary-color);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -216,7 +215,7 @@ section p {
   padding: var(--section-spacing);
   background-color: #F7F7F7;
   border: 1px solid #333;
-  box-sizing: border-box; /* Add this property */
+  box-sizing: border-box; 
 } */
 
 figure img {
