@@ -149,7 +149,6 @@ header nav a {
   margin: 20px;
 }
 
-
 /* article {
   margin-top: var(--section-spacing);
   padding: 20px;
@@ -172,15 +171,16 @@ header nav a {
   margin-left: 20px;
   margin-bottom: 20px; 
 }
+*/
 
-article p {
+ article p {
   margin-bottom: 20px;
   text-align: left;
 }
 
 article .text-container {
   flex: 1;
-} */
+} 
 
 section {
   width: 100%;
