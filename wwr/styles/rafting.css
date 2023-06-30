@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--accent1-color);
+  color: var(--text-color);
   text-align: center;
   font-size: var(--heading-font-size);
   line-height: var(--line-height);
@@ -43,7 +43,7 @@ a {
 
 a.nav-link {
   text-decoration: none;
-  color: var(--accent1-color);
+  color: var(--accent2-color);
   background-color: var(--primary-color);
   padding: 5px 10px;
 }
@@ -79,7 +79,7 @@ a.nav-link:hover {
 
 .nav-container a {
   text-decoration: none;
-  color: var(--accent1-color);
+  color: var(--accent2-color);
 }
 
 header nav {
