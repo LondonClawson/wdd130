@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height);
 }
 
+section h2 {
+  text-align: center;
+}
+
 p {
   font-size: var(--paragraph-font-size);
   line-height: var(--line-height);
