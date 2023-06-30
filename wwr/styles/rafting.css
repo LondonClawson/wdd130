@@ -71,6 +71,10 @@ a.nav-link:hover {
   height: 70px;
 }
 
+.header-container .logo h1 {
+  color: var(--accent1-color);
+}
+
 .nav-container {
   display: flex;
   justify-content: center; 
@@ -124,6 +128,9 @@ header nav a {
   transform: translate(-50%, -50%);
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: var(--accent1-color);
+  background-color: #023D3F;
+
 }
 
 article {
