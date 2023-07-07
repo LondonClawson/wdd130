@@ -282,6 +282,12 @@ footer p {
   width: 100%;
 }
 
+.employee-profiles figure img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 .employee-profiles {
   margin-top: var(--section-spacing);
   padding: 20px;
@@ -295,9 +301,6 @@ footer p {
   flex-direction: column;
   border: 1px solid #333;
   box-sizing: border-box; 
-  width: 200px;
-  height: auto;
-  margin-bottom: 10px;
 }
 
 .client-img {
