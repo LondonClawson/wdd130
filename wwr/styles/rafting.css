@@ -260,3 +260,78 @@ footer p {
   width: 30px;
   height: 30px;
 }
+
+
+.company-info {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-sizing: border-box; 
+}
+
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.employee-profiles {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-sizing: border-box; 
+}
+
+.contact-form {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-sizing: border-box; 
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+.contact-form button[type="submit"] {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
