@@ -288,7 +288,7 @@ footer p {
   background-color: #F7F7F7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 100%;
-  max-width: 800px;
+  max-width: 150px;
   margin: 0 auto;
   overflow: hidden;
   display: flex;
@@ -296,6 +296,19 @@ footer p {
   border: 1px solid #333;
   box-sizing: border-box; 
 }
+
+.client-img {
+  width: 150px;
+  height: auto;
+  position: relative; 
+  top: 20px; 
+  right: 20px; 
+  margin: 20px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px; 
+}
+
 
 .contact-form {
   margin-top: var(--section-spacing);
