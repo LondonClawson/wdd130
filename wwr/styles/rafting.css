@@ -261,7 +261,6 @@ footer p {
   height: 30px;
 }
 
-
 .company-info {
   margin-top: var(--section-spacing);
   padding: 20px;
@@ -315,7 +314,6 @@ footer p {
   margin-bottom: 20px; 
 }
 
-
 .contact-form {
   margin-top: var(--section-spacing);
   padding: 20px;
@@ -356,7 +354,6 @@ footer p {
 }
 
 /* ############################### TRIP.HTML ######################### */
-
 
 .trip-section {
   display: flex;
@@ -414,16 +411,39 @@ tbody td {
   border-bottom: 1px solid #333;
 }
 
-/* Adjustments for responsive layout */
-@media screen and (max-width: 768px) {
-  .trip {
-    flex-direction: column;
-    text-align: center;
-  }
+/* Add styles for the new section */
+.details-section {
+  margin-top: var(--section-spacing);
+  padding: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
 
-  .trip img {
-    width: 100%;
-  }
+.details-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.details-section li {
+  margin-bottom: 10px;
+}
+
+.details-section p {
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 /* ##################### BEGIN INDEX.HTML SECTION ################## */
