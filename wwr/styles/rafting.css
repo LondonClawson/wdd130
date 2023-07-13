@@ -355,11 +355,10 @@ footer p {
   background-color: var(--secondary-color);
 }
 
-/* ##################### BEGIN TRIPS.HTML SECTION ################## */
-
 .trip-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin: var(--section-spacing) auto;
 }
@@ -371,7 +370,7 @@ footer p {
 }
 
 .trip img {
-  width: 100%;
+  width: 300px;
   height: auto;
 }
 
