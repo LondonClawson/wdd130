@@ -355,12 +355,26 @@ footer p {
   background-color: var(--secondary-color);
 }
 
+/* ############################### TRIP.HTML ######################### */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .trip-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
   margin: var(--section-spacing) auto;
+}
+
+.trip-info-sidebar {
+  flex: 1;
+}
+
+.trip-info-main {
+  flex: 2;
 }
 
 .trip {
@@ -411,12 +425,25 @@ tbody td {
   border-bottom: 1px solid #333;
 }
 
-/* Adjustments for responsive layout */
-@media screen and (max-width: 768px) {
-  .trip {
-    flex-direction: column;
-    text-align: center;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.trip-section {
+  display: flex;
+  gap: 20px;
+  margin: var(--section-spacing) auto;
+}
+
+.trip-info-sidebar {
+  flex: 1;
+}
+
+.trip-info-main {
+  flex: 2;
+}
 
   .trip img {
     width: 100%;
