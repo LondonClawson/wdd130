@@ -489,6 +489,10 @@ tbody td {
 
 .newsletter-section {
   margin-top: var(--section-spacing);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .newsletter-form {
@@ -496,6 +500,8 @@ tbody td {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-basis: 50%;
+  margin-bottom: 20px;
 }
 
 .newsletter-form input[type="text"],
@@ -517,6 +523,7 @@ tbody td {
 .cta-section {
   text-align: center;
   margin-top: var(--section-spacing);
+  flex-basis: 50%;
 }
 
 .cta-section p {
