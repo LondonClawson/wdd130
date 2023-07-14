@@ -361,9 +361,6 @@ footer p {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  background-image: url("images/tripsbackground.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .cta-overlay {
