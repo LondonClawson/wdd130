@@ -239,6 +239,15 @@ figcaption {
   }
 }
 
+/* Grid Section */
+.grid-section .grid-item .grid-img {
+  width: 100%;
+  height: auto;
+  max-width: 300px; 
+  margin: 0 auto; 
+  display: block; 
+}
+
 /* Trip Section */
 .trip-section {
   display: flex;
