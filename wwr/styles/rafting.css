@@ -50,6 +50,7 @@ p {
 a {
   text-decoration: none;
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 /* Navigation Links */
@@ -207,48 +208,6 @@ figcaption {
   text-align: center;
 }
 
-/* Footer Styles */
-footer {
-  background-color: var(--secondary-color);
-  color: #FFFFFF;
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer p {
-  flex: 1;
-  color: #FFFFFF;
-}
-
-.sociallinks {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.sociallinks a {
-  margin-left: 10px;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-.sociallinks img {
-  width: 30px;
-  height: 30px;
-}
-
-/* Grid Section */
-.grid-section .grid-item .grid-img {
-  width: 100%;
-  height: auto;
-  max-width: 300px; 
-  margin: 0 auto; 
-  display: block; 
-}
-
 /* Trip Page Styles */
 /* Two-Column Section */
 .two-column-section {
@@ -371,4 +330,42 @@ tbody td {
 .details-section p {
   margin-bottom: 20px;
   text-align: left;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--secondary-color);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  flex: 1;
+  color: #FFFFFF;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sociallinks a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.sociallinks img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Update link color to meet accessibility requirements */
+footer a[href$="trips_wireframe.jpg"] {
+  color: #FFFFFF;
 }
